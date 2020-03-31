@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>Máté weboldala - HOME</title>
+<style>
+	body{
+	background-image: url(bg.jpg);
+	}
+	.neon{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+	align: center;
+	text-shadow: 0 0 20px #000000;
+	color: white;
+	text-align: center;
+	font-size: 40px
+	}
+	.neon;after{
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 20px;
+	z-index: -1;
+	color:#000000;
+	filter: blur(15px);
+	}
+	.feher{
+		color: white;
+	}
+	table{
+		margin-top: 300px;
+	}
+	table tr td a img:hover{
+		height: 320px;
+		transition: .3s;
+	}
+	ul{
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+	</style>
+	</head>
+	<body>
+	<ul>
+		<li><h1 class="neon"><tt>HOME</tt></h1></li>
+	</ul>
+		<table align="center" cellspacing="10px">
+			<tr class="feher">
+				<td><a href="x.html"><img src="xbox.png" height="300px"></a></td>
+				<td><a href="ps.html"><img src="pshome.jpg" height="300px"></a></td>
+				<td><a href="nin.html"><img src="nin.jpg" height="300px"></a></td>
+			</tr>
+		</table>
+	</body>
+</html>
